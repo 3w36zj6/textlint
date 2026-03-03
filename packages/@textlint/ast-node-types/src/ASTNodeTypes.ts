@@ -41,8 +41,8 @@ export enum ASTNodeTypes {
     // inline
     Str = "Str",
     StrExit = "Str:exit",
-    Break = "Break", // well-known Hard Break
-    BreakExit = "Break:exit", // well-known Hard Break
+    Break = "Break", // Line Break (Hard line break in CommonMark)
+    BreakExit = "Break:exit", // Line Break (Hard line break in CommonMark)
     Emphasis = "Emphasis",
     EmphasisExit = "Emphasis:exit",
     Strong = "Strong",

@@ -170,7 +170,7 @@ These types are defined in [`@textlint/ast-node-types`](https://github.com/textl
 | ASTNodeTypes.EmphasisExit       | TxtEmphasisNode(TxtParentNode)      |                                             |
 | ASTNodeTypes.Strong             | TxtStrongNode(TxtParentNode)        | Strong Node(`**Str**`)                      |
 | ASTNodeTypes.StrongExit         | TxtStrongNode(TxtParentNode)        |                                             |
-| ASTNodeTypes.Break              | TxtBreakNode                        | Hard Break Node(`Str<space><space>`)        |
+| ASTNodeTypes.Break              | TxtBreakNode                        | Line Break Node ([Hard line break in CommonMark](https://spec.commonmark.org/0.31.2/#hard-line-breaks))  |
 | ASTNodeTypes.BreakExit          | TxtBreakNode                        |                                             |
 | ASTNodeTypes.Image              | TxtImageNode                        | Image Node                                  |
 | ASTNodeTypes.ImageExit          | TxtImageNode                        |                                             |
